@@ -17,7 +17,6 @@ public class MyChatAdminApplication extends Application{
 
 	private static ThreadPoolExecutor threadPoolExecutor;
 
-
 	public MyChatAdminApplication() {
 		applicationContext = this;
 	}
