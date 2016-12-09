@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+	android:clickable="true"
+	android:background="?android:attr/selectableItemBackground"
+	android:focusable="true">
+
+	<RelativeLayout
+		android:id="@+id/listContentContainer"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:padding="5dp">
+    
+     <RelativeLayout
+         android:id="@+id/detailsContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_margin="5dp" >
+        
+          <TextView
+	        android:id="@+id/phoneNumber"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentRight="true"
+	        android:layout_marginRight="5dp"
+	        android:singleLine="true"
+			style="@style/timeListItem"
+	        android:text="9035896385" />
+    
+		  <TextView
+	        android:id="@+id/userName"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentLeft="true"
+	        android:layout_toLeftOf="@id/phoneNumber"
+	        android:layout_marginBottom="5dp"
+	        android:paddingRight="5dp"
+	        style="@style/userNameListItem"
+	        android:singleLine="true"
+	        android:text="Srinivas" />
+
+		  <TextView
+	        android:id="@+id/emailId"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_below="@id/userName"
+	        android:layout_marginRight="70dp"
+			  style="@style/statusListItem"
+	        android:singleLine="true"
+	        android:text="srinivasreddy.nit@gmail.com" />
+		  
+		   <TextView
+	        android:id="@+id/customMsg"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_below="@id/phoneNumber"
+	        android:layout_alignParentRight="true"
+	        android:layout_marginTop="5dp"
+	        android:layout_marginRight="5dp"
+			   style="@style/newMsgListItem"
+	        android:singleLine="true"
+	        android:visibility="visible"
+	        android:text="NEW" />
+		   
+    </RelativeLayout>
+
+	</RelativeLayout>
+	<View
+		android:id="@+id/divider"
+		android:layout_width="wrap_content"
+		android:layout_height="0.5dp"
+		android:layout_below="@id/listContentContainer"
+		android:background="#E3E3E3"
+		/>
+
+</RelativeLayout>

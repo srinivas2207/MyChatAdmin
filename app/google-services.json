@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "767833290596",
+    "firebase_url": "https://mychatadmin-f54e3.firebaseio.com",
+    "project_id": "mychatadmin-f54e3",
+    "storage_bucket": "mychatadmin-f54e3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:767833290596:android:bdee34f6730242c4",
+        "android_client_info": {
+          "package_name": "com.shree.mychatadmin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "767833290596-vhqve110qss7r58gsm48aptodnaagsoc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDGsqLgPCZI6gY0kqzHLR-naXqhtj3iaZw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
